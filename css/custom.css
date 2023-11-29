@@ -1,0 +1,61 @@
+.sombra {
+    -webkit-box-shadow: 6px 9px 7px 0px rgba(176, 176, 176, 0.75);
+    -moz-box-shadow: 6px 9px 7px 0px rgba(176, 176, 176, 0.75);
+    box-shadow: 6px 9px 7px 0px rgba(176, 176, 176, 0.75);
+}
+
+.tamanhoContainer {
+    width: 500px;
+  }
+
+  .botao {
+    background-color: #C0C0C0;
+    /* cor de fundo*/
+    color: #ffffff;
+    /* cor da letra */
+  }
+
+  @media only screen and (max-width: 600px) {
+    body {
+      width: 350px;
+      text-align: center;
+    }
+  }
+
+  .fa {
+    font-family: 'FontAwesome' !important;
+  }
+
+
+  .sombra {
+    -webkit-box-shadow: 6px 9px 7px 0px rgba(176, 176, 176, 0.75);
+    -moz-box-shadow: 6px 9px 7px 0px rgba(176, 176, 176, 0.75);
+    box-shadow: 6px 9px 7px 0px rgba(176, 176, 176, 0.75);
+  }
+
+  .image-container {
+    max-width: 75%; 
+    text-align: center; /* Centraliza horizontalmente */
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+.image-container img {
+    max-width:75%; /* Ajusta a largura da imagem */
+    height: auto; /* Permite que a altura se ajuste automaticamente à largura */
+}
+
+.project-badge {
+  position: absolute;
+  top: 10px; /* Ajuste essa propriedade para posicionar o selo verticalmente */
+  left: 10px; /* Ajuste essa propriedade para posicionar o selo horizontalmente */
+  z-index: 1; /* Certifique-se de que o selo esteja na frente do conteúdo do cartão */
+}
+
+/* Estilos para o selo circular */
+.badge-success {
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 50%; /* Transforma o badge em um círculo */
+  background-color: #28a745; /* Cor verde de fundo */
+  color: white; /* Cor do texto do selo */
+}

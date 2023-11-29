@@ -1,0 +1,3 @@
+ALTER TABLE `ictio_imagens` DROP `id`;
+
+ALTER TABLE `ictio_imagens` ADD `id` INT(255) NOT NULL AUTO_INCREMENT FIRST, ADD PRIMARY KEY (`id`)

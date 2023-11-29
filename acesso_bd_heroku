@@ -1,0 +1,7 @@
+mysql://bf62633f323120:7764abf2@us-cdbr-east-06.cleardb.net/heroku_a57767b2b98e83f?reconnect=true
+
+
+host:us-cdbr-east-06.cleardb.net
+usuario:bf62633f32312
+senha:7764abf2
+bd: heroku_a57767b2b98e83f

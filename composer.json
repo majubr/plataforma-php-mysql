@@ -1,0 +1,17 @@
+{
+    "name": "mj/bd",
+    "description": "bd",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Mj\\Bd\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "majubr",
+            "email": "majubr@gmail.com"
+        }
+    ],
+    "require": {}
+}

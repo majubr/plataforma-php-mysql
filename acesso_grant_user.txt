@@ -1,0 +1,35 @@
+CREATE USER 'bgincnwg9tteblot'@'l6glqt8gsx37y4hs.cbetxkdyhwsb.us-east-1.rds.amazonaws.com' IDENTIFIED BY 'epk1dmdv78po6oo1';
+
+GRANT ALL PRIVILEGES ON `tev9wa2lrbj9xb5v`.* TO 'l6glqt8gsx37y4hs.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
+
+mysql -u bgincnwg9tteblot -p -h l6glqt8gsx37y4hs.cbetxkdyhwsb.us-east-1.rds.amazonaws.com
+
+USE tev9wa2lrbj9xb5v;
+
+LOAD DATA LOCAL INFILE 'D:/Nexus/base_de_dados/savana_bd.csv' INTO TABLE dados_colar_lobo FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n';
+
+ERROR 1142 (42000): INSERT, GRANT command denied to user 'bgincnwg9tteblot'@'177.182.139.96' for table 'dados_colar_lobo
+
+mysqldump -u bgincnwg9tteblot -p tev9wa2lrbj9xb5v > backup.sql
+
+mysql -u bgincnwg9tteblot -p -h l6glqt8gsx37y4hs.cbetxkdyhwsb.us-east-1.rds.amazonaws.com
+
+mysql -h l6glqt8gsx37y4hs.cbetxkdyhwsb.us-east-1.rds.amazonaws.com -u admin -p
+
+'177.182.139.96
+
+mysql -h 177.182.139.96 -u admin -p
+
+LOAD DATA INFILE 'D:/Nexus/base_de_dados/savana_db.csv'
+INTO TABLE dados_colares_lobo
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n';
+
+CREATE USER 'bd'@'%' IDENTIFIED WITH 'mysql_native_password' BY 'bd_prime';
+GRANT ALL PRIVILEGES ON *.* TO 'bd'@'%' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+
+mysql -h l6glqt8gsx37y4hs.cbetxkdyhwsb.us-east-1.rds.amazonaws.com -P 3306 -u root -p tev9wa2lrbj9xb5v < C:/Users/user/Documents/dumps/exports.sql/fauna_dados_colar_lobo.sql
+
+

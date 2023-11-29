@@ -1,0 +1,7 @@
+CREATE TABLE `avi_imagens` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `sp` text DEFAULT NULL,
+  `familia` text DEFAULT NULL,
+  `path` text DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=29 DEFAULT CHARSET=utf8

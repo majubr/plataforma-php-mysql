@@ -1,0 +1,95 @@
+
+
+
+
+create table dw_oc_mastofauna (
+id int not null auto_increment,
+eventID varchar (100),
+occurrenceID varchar (100),
+basisOfRecord varchar (100),
+scientificName varchar (100),
+kingdon varchar (100),
+phylum varchar (100),
+class varchar (100),
+order varchar (100),
+family varchar (100),
+taxonRank varchar (100),
+identificationQualifier varchar (100),
+recordedBy varchar (100),
+individualCount int,
+sex (100) varchar (100),
+lifeStage varchar (100),
+reproductiveCondition varchar (100),
+preparations varchar (100),
+occurrenceRemarks varchar (100),
+primary key (id)
+) default charset = utf8;
+
+create table dw_oc_avifauna (
+id int not null auto_increment,
+eventID varchar (100),
+occurrenceID varchar (100),
+basisOfRecord varchar (100),
+scientificName varchar (100),
+kingdon varchar (100),
+phylum varchar (100),
+class varchar (100),
+order varchar (100),
+family varchar (100),
+taxonRank varchar (100),
+identificationQualifier varchar (100),
+recordedBy varchar (100),
+individualCount int,
+sex (100) varchar (100),
+lifeStage varchar (100),
+reproductiveCondition varchar (100),
+preparations varchar (100),
+occurrenceRemarks varchar (100),
+primary key (id)
+) default charset = utf8;
+
+create table dw_oc_ictiofauna (
+id int not null auto_increment,
+eventID varchar (100),
+occurrenceID varchar (100),
+basisOfRecord varchar (100),
+scientificName varchar (100),
+kingdon varchar (100),
+phylum varchar (100),
+class varchar (100),
+order varchar (100),
+family varchar (100),
+taxonRank varchar (100),
+identificationQualifier varchar (100),
+recordedBy varchar (100),
+individualCount int,
+sex (100) varchar (100),
+lifeStage varchar (100),
+reproductiveCondition varchar (100),
+preparations varchar (100),
+occurrenceRemarks varchar (100),
+primary key (id)
+) default charset = utf8;
+
+create table dw_oc_herpetofauna (
+id int not null auto_increment,
+eventID varchar (100),
+occurrenceID varchar (100),
+basisOfRecord varchar (100),
+scientificName varchar (100),
+kingdon varchar (100),
+phylum varchar (100),
+class varchar (100),
+order varchar (100),
+family varchar (100),
+taxonRank varchar (100),
+identificationQualifier varchar (100),
+recordedBy varchar (100),
+individualCount int,
+sex (100) varchar (100),
+lifeStage varchar (100),
+reproductiveCondition varchar (100),
+preparations varchar (100),
+occurrenceRemarks varchar (100),
+primary key (id)
+) default charset = utf8;
